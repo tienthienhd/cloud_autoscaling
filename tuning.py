@@ -28,10 +28,11 @@ dict_config = {
 def run_ed(params):
     # dataset = GgTraceDataSet2('datasets/gg_trace/5.csv', params['sliding_encoder'], params['sliding_decoder'])
     # dataset = GgTraceDataSet2('datasets/wc98/5.csv', params['sliding_encoder'], params['sliding_decoder'])
-    usecols = [1] #TODO: fix for each dataset
-    data_loader = DataLoader('datasets/wc98/wc98_workload_5min.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
+    dataset_name = 'gg_trace'
+    usecols = [3, 4] #TODO: fix for each dataset
+    # data_loader = DataLoader('datasets/wc98/wc98_workload_5min.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
     # data_loader = DataLoader('datasets/traffic/internet-traffic-data-in-bits-fr_EU_5m.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
-    # data_loader = DataLoader('datasets/gg_trace/5.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
+    data_loader = DataLoader('datasets/gg_trace/5.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
     train, test = data_loader.get_data(params['sliding_encoder'], params['sliding_decoder'])
 
     start_time = time.time()
@@ -84,7 +85,7 @@ def run_ed(params):
     mae = np.mean(np.abs(np.subtract(preds_inv, y_test_inv)))
 
     delta_time = time.time() - start_time
-    with open('logs/wc98/mae.csv', 'a') as f: #TODO: Fix for each dataset
+    with open('logs/' + dataset_name + '/mae.csv', 'a') as f: #TODO: Fix for each dataset
         f.write("{};{:.5f};{:.2f}\n".format(model_name, mae, delta_time))
     #
     # preds_inv = preds_inv[:, 0, 0]
@@ -97,7 +98,7 @@ def run_ed(params):
     plt.legend()
     plt.title('mae={:.2f}'.format(mae))
     # plt.show()
-    plt.savefig('logs/wc98/' + str(mae) + "_" + model_name + '_predict_ed.png')#TODO: Fix for each dataset
+    plt.savefig('logs/' + dataset_name + '/' + str(mae) + "_" + model_name + '_predict_ed.png')#TODO: Fix for each dataset
     plt.clf()
 
 

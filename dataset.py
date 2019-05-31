@@ -140,6 +140,7 @@ class DataLoader():
         # self.raw_data.plot()
         # plt.title('raw')
         # f.show()
+        # plt.show()
 
         self.data = self.raw_data.copy().values
         if is_log and is_diff:
@@ -261,6 +262,7 @@ class DataLoader():
 
 
 # dataloader = DataLoader('datasets/wc98/wc98_workload_5min.csv', usecols=[1], is_diff=True, is_log=True, is_scale=True)
+dataloader = DataLoader('datasets/traffic/internet-traffic-data-in-bits-fr_EU_5m.csv', usecols=[1], is_diff=True, is_log=True, is_scale=True)
 # raw_data = dataloader.raw_data.copy().values
 # print(raw_data[:5])
 # print(dataloader.data[:5])
