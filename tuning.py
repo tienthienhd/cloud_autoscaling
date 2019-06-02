@@ -101,6 +101,14 @@ def run_ed(params):
     plt.clf()
 
     del model
+    del preds_inv
+    del preds
+    del ground_truth
+    del y_test_inv
+    del mae
+    del delta_time
+    del train
+    del test
 
 
 
