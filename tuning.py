@@ -132,6 +132,12 @@ def mutil_running(list_configs, n_jobs=1):
     pool.terminate()
 
 
+def single_running(list_configs):
+    print('Running single process....')
+    for config in list_configs:
+        run_ed(config)
+
+
 test_config = {
     'sliding_encoder': 4,
     'sliding_decoder': 1,
@@ -161,4 +167,7 @@ list_config = np.random.choice(list(ParameterGrid(dict_config)), size=args.n_con
 if args.test:
     run_ed(test_config)
 else:
-    mutil_running(list_configs=list_config, n_jobs=args.n_jobs)
+    if args.n_jobs == 1:
+        single_running(list_config)
+    else:
+        mutil_running(list_configs=list_config, n_jobs=args.n_jobs)
