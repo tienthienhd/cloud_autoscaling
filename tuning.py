@@ -26,8 +26,6 @@ dict_config = {
 }
 
 def run_ed(params):
-    # dataset = GgTraceDataSet2('datasets/gg_trace/5.csv', params['sliding_encoder'], params['sliding_decoder'])
-    # dataset = GgTraceDataSet2('datasets/wc98/5.csv', params['sliding_encoder'], params['sliding_decoder'])
     dataset_name = 'gg_trace'
     usecols = [3, 4] #TODO: fix for each dataset
     # data_loader = DataLoader('datasets/wc98/wc98_workload_5min.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
@@ -77,20 +75,17 @@ def run_ed(params):
     preds = model.predict(test[0])
     preds = preds[:, :1, 0]
     preds_inv = data_loader.inverse_scale(preds)
-    preds_inv = data_loader.inverse_log_difference(preds_inv)
+    preds_inv = data_loader.inverse_log_difference(preds_inv, test[-2])
 
-    y_test_inv = test[1][:, :1, 0]
-    y_test_inv = data_loader.inverse_scale(y_test_inv)
-    y_test_inv = data_loader.inverse_log_difference(y_test_inv)
+    # y_test_inv = test[1][:, :1, 0]
+    # y_test_inv = data_loader.inverse_scale(y_test_inv)
+    # y_test_inv = data_loader.inverse_log_difference(y_test_inv, test[-2])
+    y_test_inv = ground_truth = test[-1]
     mae = np.mean(np.abs(np.subtract(preds_inv, y_test_inv)))
 
     delta_time = time.time() - start_time
     with open('logs/' + dataset_name + '/mae.csv', 'a') as f: #TODO: Fix for each dataset
         f.write("{};{:.5f};{:.2f}\n".format(model_name, mae, delta_time))
-    #
-    # preds_inv = preds_inv[:, 0, 0]
-    # y_test_inv = y_test_inv[:, -1, 0]
-    #
     plt.plot(y_test_inv, label='actual', color='#fc6b00', linestyle='solid')
     plt.plot(preds_inv, label='predict', color='blue', linestyle='solid')
     plt.xlabel('time')
@@ -125,17 +120,17 @@ def mutil_running(list_configs, n_jobs=1):
 test_config = {
     'sliding_encoder': 4,
     'sliding_decoder': 1,
-    'layer_sizes_ed': [32, 8],
+    'layer_sizes_ed': [16, 4],
     'layer_sizes_f': [64, 16],
     'activation': 'tanh',
     'optimizer': 'rmsprop',
     'recurrent_dropout': 0.05,
     'dropout': 0.05,
-    'batch_size': 32,
+    'batch_size': 4,
     'learning_rate': 0.01,
-    'epochs': 20,
+    'epochs': 2,
     'cell_type': 'lstm',
-    'patience': 15
+    'patience': 5
 }
 
 import argparse
@@ -148,7 +143,7 @@ args = parser.parse_args()
 
 list_config = np.random.choice(list(ParameterGrid(dict_config)), size=args.n_configs)
 
-if args.test:
+if True:
     run_ed(test_config)
 else:
     mutil_running(list_configs=list_config, n_jobs=args.n_jobs)

@@ -134,37 +134,41 @@ class DataLoader():
         self.is_log = is_log
         self.is_diff = is_diff
 
-        self.raw_data = pd.read_csv(filename, usecols=usecols)
+        raw_data = pd.read_csv(filename, usecols=usecols)
+        f = plt.figure(1)
+        raw_data.plot()
+        plt.title('raw')
+        f.show()
+        plt.show()
 
-        # f = plt.figure(1)
-        # self.raw_data.plot()
-        # plt.title('raw')
-        # f.show()
-        # plt.show()
+        self.raw_data = raw_data.values
+        # self.raw_data = np.array([[1], [2], [4], [7], [11], [16], [22], [29], [37], [46], [56], ])
 
-        self.data = self.raw_data.copy().values
+
+        # self.data = self.raw_data.copy().values
+        self.data = self.raw_data
         if is_log and is_diff:
             self.log_difference()
-            # f = plt.figure(2)
-            # df = pd.DataFrame(self.data)
-            # df.plot()
-            # plt.title('log_diff')
-            # f.show()
+            f = plt.figure(2)
+            df = pd.DataFrame(self.data)
+            df.plot()
+            plt.title('log_diff')
+            f.show()
         elif is_diff:
             self.difference()
-            # f = plt.figure(3)
-            # df = pd.DataFrame(self.data)
-            # df.plot()
-            # plt.title('diff')
-            # f.show()
+            f = plt.figure(3)
+            df = pd.DataFrame(self.data)
+            df.plot()
+            plt.title('diff')
+            f.show()
         if is_scale:
             self.scale()
-        #     f = plt.figure(4)
-        #     df = pd.DataFrame(self.data)
-        #     df.plot()
-        #     plt.title('scale')
-        #     f.show()
-        # plt.show()
+            f = plt.figure(4)
+            df = pd.DataFrame(self.data)
+            df.plot()
+            plt.title('scale')
+            f.show()
+        plt.show()
 
     def scale(self, feature_range=(-1, 1)):
         self.feature_range = feature_range
@@ -208,7 +212,7 @@ class DataLoader():
         :param interval:
         :return:
         """
-        return data + history[:-interval]
+        return data + history
 
     def log_difference(self, interval=1):
         """
@@ -225,9 +229,8 @@ class DataLoader():
         log_diff = np.array(log_diff)
         self.data = log_diff
 
-    def inverse_log_difference(self, data, interval=1):
-        history = self.raw_data.values[self.n_train-interval:-(self.n_in + self.n_out + interval)]
-        return history[:-interval] * np.exp(data)
+    def inverse_log_difference(self, data, history, interval=1):
+        return history * np.exp(data)
 
     def to_supervised(self, data, n_in, n_out):
         result = []
@@ -240,12 +243,30 @@ class DataLoader():
         data = self.data
         self.n_in = n_in
         self.n_out = n_out
+
+        # time series to supervised
         data_sup = self.to_supervised(data, n_in, n_out)
         data_sup = np.reshape(data_sup, (data_sup.shape[0], n_in + n_out, -1))
+
+        # split train and test
         n_train = int(len(data) * split_rate)
         self.n_train = n_train
         data_sup_train = data_sup[:n_train]
         data_sup_test = data_sup[n_train:]
+
+        # get history to inverse after
+        raw_data = self.raw_data
+        history = raw_data[n_in:-n_out-1, :1]
+        history_yd_train = history[:n_train]
+        history_yd_test = history[n_train:]
+
+
+        # get ground truth to needn't inverse again
+        yd_truth = raw_data[n_in+1:-n_out, :1]
+        yd_truth_train = yd_truth[:n_train]
+        yd_truth_test = yd_truth[n_train:]
+
+
         xe_train = data_sup_train[:, :n_in, :]
         xd_train = data_sup_train[:, n_in - n_out:n_in, :]
         yd_train = data_sup_train[:, n_in:, :1]
@@ -255,19 +276,39 @@ class DataLoader():
         xd_test = data_sup_test[:, n_in - n_out:n_in, :]
         yd_test = data_sup_test[:, n_in:, :1]
         y_test = data_sup_test[:, n_in:, 0]
-        return ([xe_train, xd_train], yd_train, y_train), ([xe_test, xd_test], yd_test, y_test)
+        return ([xe_train, xd_train], yd_train, y_train, history_yd_train, yd_truth_train), ([xe_test, xd_test], yd_test, y_test, history_yd_test, yd_truth_test)
 
 
 
 
 
 # dataloader = DataLoader('datasets/wc98/wc98_workload_5min.csv', usecols=[1], is_diff=True, is_log=True, is_scale=True)
-dataloader = DataLoader('datasets/traffic/internet-traffic-data-in-bits-fr_EU_5m.csv', usecols=[1], is_diff=True, is_log=True, is_scale=True)
-# raw_data = dataloader.raw_data.copy().values
-# print(raw_data[:5])
-# print(dataloader.data[:5])
+# dataloader = DataLoader('datasets/traffic/internet-traffic-data-in-bits-fr_EU_5m.csv', usecols=[1], is_diff=True, is_log=True, is_scale=True)
+# data_loader = DataLoader('datasets/gg_trace/5.csv', usecols=[3, 4], is_scale=True, is_log=True, is_diff=True)
 #
-# inverted_data = dataloader.inverse_log_difference(data=dataloader.data, history=dataloader.raw_data.values)
-# print(inverted_data[:5])
-
-
+# train, test = data_loader.get_data(4, 2)
+# history_train = train[-2]
+# history_test = test[-2]
+#
+# yd_truth_train = train[-1]
+# yd_truth_test = test[-1]
+#
+# y_train = train[1]
+# y_test = test[1]
+#
+# print(history_test.shape)
+# print(yd_truth_test.shape)
+# print(y_test.shape)
+#
+#
+# y = y_test[:, :1, 0]
+# y_inv = data_loader.inverse_scale(y)
+# y_inv = data_loader.inverse_log_difference(y_inv, history_test)
+# print(y_inv.shape)
+#
+# delta = np.mean(y_inv - yd_truth_test)
+# plt.plot(y_inv, label='inv')
+# plt.plot(yd_truth_test, label='truth')
+# plt.legend()
+# plt.title(delta)
+# plt.show()
