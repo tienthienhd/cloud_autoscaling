@@ -135,40 +135,39 @@ class DataLoader():
         self.is_diff = is_diff
 
         raw_data = pd.read_csv(filename, usecols=usecols)
-        f = plt.figure(1)
-        raw_data.plot()
-        plt.title('raw')
-        f.show()
-        plt.show()
+        # f = plt.figure(1)
+        # raw_data.plot()
+        # plt.title('raw')
+        # f.show()
+        # plt.show()
 
         self.raw_data = raw_data.values
-        # self.raw_data = np.array([[1], [2], [4], [7], [11], [16], [22], [29], [37], [46], [56], ])
 
 
         # self.data = self.raw_data.copy().values
         self.data = self.raw_data
         if is_log and is_diff:
             self.log_difference()
-            f = plt.figure(2)
-            df = pd.DataFrame(self.data)
-            df.plot()
-            plt.title('log_diff')
-            f.show()
+            # f = plt.figure(2)
+            # df = pd.DataFrame(self.data)
+            # df.plot()
+            # plt.title('log_diff')
+            # f.show()
         elif is_diff:
             self.difference()
-            f = plt.figure(3)
-            df = pd.DataFrame(self.data)
-            df.plot()
-            plt.title('diff')
-            f.show()
+            # f = plt.figure(3)
+            # df = pd.DataFrame(self.data)
+            # df.plot()
+            # plt.title('diff')
+            # f.show()
         if is_scale:
             self.scale()
-            f = plt.figure(4)
-            df = pd.DataFrame(self.data)
-            df.plot()
-            plt.title('scale')
-            f.show()
-        plt.show()
+        #     f = plt.figure(4)
+        #     df = pd.DataFrame(self.data)
+        #     df.plot()
+        #     plt.title('scale')
+        #     f.show()
+        # plt.show()
 
     def scale(self, feature_range=(-1, 1)):
         self.feature_range = feature_range

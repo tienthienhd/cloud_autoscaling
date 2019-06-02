@@ -63,6 +63,7 @@ def run_ed(params):
                      multi_output_decoder=True)
 
     callbacks = [
+        # ModelCheckpoint('logs/' + dataset_name + '/best_model.hdf5', save_best_only=True),
         EarlyStopping(patience=params['patience'], monitor='val_loss', restore_best_weights=True),
         # ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=10, verbose=0),
         TerminateOnNaN()
@@ -83,7 +84,7 @@ def run_ed(params):
     # y_test_inv = data_loader.inverse_scale(y_test_inv)
     # y_test_inv = data_loader.inverse_log_difference(y_test_inv, test[-2])
     y_test_inv = ground_truth = test[-1]
-    mae = np.mean(np.abs(np.subtract(preds_inv, y_test_inv)))
+    mae = round(np.mean(np.abs(np.subtract(preds_inv, y_test_inv))), 4)
 
     delta_time = time.time() - start_time
     with open('logs/' + dataset_name + '/mae.csv', 'a') as f: #TODO: Fix for each dataset
