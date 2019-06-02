@@ -18,7 +18,7 @@ dict_config = {
     "optimizer": ['adam', 'rmsprop'],
     "batch_size": [8, 16, 32, 64, 128],
     "cell_type": ['lstm'],
-    "epochs": [5],
+    "epochs": [500],
     "recurrent_dropout": [0.05],
     "dropout": [0.05],
     "learning_rate": [0.0001, 0.001, 0.01],
@@ -150,7 +150,7 @@ args = parser.parse_args()
 
 list_config = np.random.choice(list(ParameterGrid(dict_config)), size=args.n_configs)
 
-if True:
+if args.test:
     run_ed(test_config)
 else:
     mutil_running(list_configs=list_config, n_jobs=args.n_jobs)
