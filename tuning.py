@@ -73,7 +73,8 @@ def run_ed(params):
               batch_size=params['batch_size'],
               epochs=params['epochs'],
               shuffle=False,
-              callbacks=callbacks)
+              callbacks=callbacks,
+              verbose=0)
 
     preds = model.predict(test[0])
     preds = preds[:, :1, 0]
