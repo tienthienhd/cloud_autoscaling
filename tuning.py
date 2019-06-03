@@ -111,25 +111,32 @@ def run_ed(params):
     del test
 
 
+def parallel_process(list_configs, n_jobs=1):
+    from multiprocessing import Pool
+    from contextlib import closing
+    with closing(Pool(n_jobs)) as p:
+        p.map(run_ed, list_configs)
+
 
 def mutil_running(list_configs, n_jobs=1):
     if n_jobs == -1:
         n_jobs = mp.cpu_count()
-    pool = mp.Pool(n_jobs)
+    # pool = mp.Pool(n_jobs)
 
     num_configs = len(list_configs)
-    config_per_map = 64
+    config_per_map = 32
     n_maps = num_configs // config_per_map
     if num_configs % config_per_map != 0:
         n_maps += 1
 
     for i in range(n_maps):
         list_configs_map = list_configs[i * config_per_map: (i + 1) * config_per_map]
-        pool.map(run_ed, list_configs_map)
+        parallel_process(list_configs_map, n_jobs=n_jobs)
+        # pool.map(run_ed, list_configs_map)
 
-    pool.close()
-    pool.join()
-    pool.terminate()
+    # pool.close()
+    # pool.join()
+    # pool.terminate()
 
 
 def single_running(list_configs):
