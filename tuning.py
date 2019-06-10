@@ -25,10 +25,10 @@ dict_config = {
     "patience": [15],
 }
 
-dataset_name = 'wc98'
+dataset_name = 'traffic'
 usecols = [1]  # TODO: fix for each dataset
-data_loader = DataLoader('datasets/wc98/wc98_workload_5min.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
-# data_loader = DataLoader('datasets/traffic/internet-traffic-data-in-bits-fr_EU_5m.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
+# data_loader = DataLoader('datasets/wc98/wc98_workload_5min.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
+data_loader = DataLoader('datasets/traffic/internet-traffic-data-in-bits-fr_EU_5m.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
 # data_loader = DataLoader('datasets/gg_trace/5.csv', usecols=usecols, is_scale=True, is_log=True, is_diff=True)
 
 
