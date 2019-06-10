@@ -1,0 +1,500 @@
+sle(20)_sld(5)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6893.63800;181.27
+sle(8)_sld(1)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6992.99270;218.48
+sle(24)_sld(4)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);6848.80090;543.78
+sle(8)_sld(6)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7680.85830;571.86
+sle(28)_sld(2)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7092.88510;1291.92
+sle(20)_sld(1)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7526.92910;244.99
+sle(40)_sld(6)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6915.79370;1069.39
+sle(8)_sld(6)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9110.12100;1276.08
+sle(12)_sld(2)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6901.66460;321.94
+sle(20)_sld(7)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);8055.04990;1833.19
+sle(24)_sld(1)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);8048.98000;268.73
+sle(16)_sld(1)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7358.35130;2688.03
+sle(16)_sld(4)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6910.73640;766.03
+sle(16)_sld(3)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7025.56040;198.19
+sle(20)_sld(6)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);8061.67120;3263.72
+sle(40)_sld(3)_lsed([64, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7743.82540;3265.82
+sle(20)_sld(3)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);6956.37380;1721.18
+sle(40)_sld(2)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7711.88660;1505.95
+sle(36)_sld(3)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7007.29180;1426.78
+sle(40)_sld(6)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);6856.44940;4200.96
+sle(20)_sld(4)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7195.04650;414.06
+sle(36)_sld(7)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);9258.22970;1455.83
+sle(28)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6859.51710;354.61
+sle(24)_sld(4)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6907.56760;628.99
+sle(12)_sld(6)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6939.36710;1462.63
+sle(16)_sld(6)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);6868.17000;3878.22
+sle(8)_sld(7)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7867.27860;687.05
+sle(24)_sld(4)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7176.82480;3592.16
+sle(28)_sld(2)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6923.95320;1233.72
+sle(36)_sld(1)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7148.54710;985.72
+sle(24)_sld(1)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);49650.80060;4965.01
+sle(40)_sld(6)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);6947.85740;3731.35
+sle(20)_sld(2)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6906.58160;149.76
+sle(32)_sld(5)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7024.62180;373.70
+sle(16)_sld(5)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6931.90260;472.69
+sle(20)_sld(2)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);6890.99720;1045.99
+sle(8)_sld(6)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);6931.54040;1199.48
+sle(20)_sld(5)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6835.94740;1721.63
+sle(36)_sld(3)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7188.25330;2104.84
+sle(28)_sld(6)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6867.46690;619.15
+sle(16)_sld(7)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6934.13540;193.76
+sle(16)_sld(7)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7290.66480;1568.64
+sle(24)_sld(3)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6982.29750;623.83
+sle(8)_sld(1)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6933.34940;162.58
+sle(20)_sld(7)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7195.01210;2844.28
+sle(8)_sld(7)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7626.04370;202.78
+sle(36)_sld(6)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7603.64330;3069.10
+sle(40)_sld(6)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);6957.77450;3094.30
+sle(16)_sld(4)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6913.27180;286.85
+sle(12)_sld(3)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);8092.74610;649.23
+sle(16)_sld(5)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6797.61320;2942.01
+sle(8)_sld(4)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);23947.36900;1247.49
+sle(16)_sld(7)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6921.23280;1141.11
+sle(12)_sld(2)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);8862.11210;1201.21
+sle(8)_sld(3)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);8661.00330;581.65
+sle(24)_sld(1)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7115.82590;1079.17
+sle(40)_sld(7)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);8011.77390;1826.23
+sle(16)_sld(5)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6966.78340;3446.15
+sle(28)_sld(4)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6876.74050;508.16
+sle(36)_sld(5)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7438.68060;2143.50
+sle(12)_sld(3)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6935.72860;1966.72
+sle(40)_sld(7)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);9341.21510;4776.30
+sle(36)_sld(4)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);15330.15680;6974.42
+sle(32)_sld(7)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);6877.41410;8077.57
+sle(40)_sld(6)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6471.55740;220.58
+sle(40)_sld(2)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6506.21440;424.51
+sle(20)_sld(5)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6914.12470;658.18
+sle(24)_sld(3)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7776.97100;517.38
+sle(16)_sld(5)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);6955.32350;779.93
+sle(8)_sld(2)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7296.83460;137.57
+sle(40)_sld(5)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6900.17700;879.52
+sle(16)_sld(6)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7652.29100;456.21
+sle(20)_sld(7)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7498.29610;292.04
+sle(24)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7351.47910;1042.07
+sle(24)_sld(4)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7185.32980;353.16
+sle(40)_sld(6)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);8840.88010;345.28
+sle(16)_sld(7)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6794.67340;463.19
+sle(32)_sld(1)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7020.23720;1056.57
+sle(36)_sld(7)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6878.44930;1541.56
+sle(32)_sld(1)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7036.39340;749.83
+sle(40)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);8428.81800;385.75
+sle(12)_sld(2)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7086.39860;138.77
+sle(16)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6765.37130;271.20
+sle(40)_sld(5)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6915.99330;3549.23
+sle(32)_sld(1)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6677.79450;376.96
+sle(40)_sld(4)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6894.69180;545.72
+sle(20)_sld(5)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7354.91360;4431.93
+sle(32)_sld(3)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);6972.09920;1350.16
+sle(36)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);9559.72580;2485.46
+sle(40)_sld(7)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7005.99620;4087.17
+sle(12)_sld(5)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7915.27970;700.08
+sle(12)_sld(7)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7040.49070;415.94
+sle(28)_sld(3)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7495.75330;4227.64
+sle(40)_sld(2)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6914.78900;4324.09
+sle(32)_sld(6)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6895.34120;2313.08
+sle(40)_sld(7)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);6993.51030;5350.25
+sle(28)_sld(4)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7880.83000;158.27
+sle(24)_sld(3)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7566.50290;235.70
+sle(8)_sld(3)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6942.61220;305.77
+sle(40)_sld(1)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6931.41740;639.27
+sle(40)_sld(7)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6870.25160;912.30
+sle(28)_sld(1)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);14107.46150;1094.68
+sle(8)_sld(6)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6877.22520;889.20
+sle(28)_sld(3)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);8452.00250;1472.19
+sle(32)_sld(3)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6868.75200;670.04
+sle(8)_sld(3)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7015.24870;2190.14
+sle(24)_sld(5)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);6898.51580;1213.19
+sle(24)_sld(7)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6904.75190;2332.48
+sle(12)_sld(3)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);12057.64040;836.58
+sle(8)_sld(6)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7036.80200;2097.60
+sle(8)_sld(2)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6745.63540;275.01
+sle(12)_sld(6)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7972.56610;1450.20
+sle(40)_sld(1)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7399.81760;211.33
+sle(40)_sld(6)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7001.62150;2985.21
+sle(40)_sld(7)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6939.68510;1348.47
+sle(40)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);9460.40600;897.23
+sle(16)_sld(6)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6948.78270;259.09
+sle(32)_sld(3)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6887.14110;1304.71
+sle(20)_sld(1)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6914.97590;546.12
+sle(32)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);8099.43520;1972.55
+sle(20)_sld(6)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6791.54980;3471.06
+sle(24)_sld(6)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6868.57530;312.44
+sle(8)_sld(6)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7068.98680;2230.56
+sle(36)_sld(4)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6953.72980;1478.65
+sle(16)_sld(6)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6978.43600;1857.20
+sle(32)_sld(7)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6952.30320;1507.05
+sle(28)_sld(6)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9219.89210;4107.43
+sle(24)_sld(1)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7265.27280;3998.47
+sle(20)_sld(5)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6862.43240;242.81
+sle(24)_sld(7)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6993.07060;504.52
+sle(28)_sld(2)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7422.57210;579.38
+sle(36)_sld(2)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6923.03590;584.97
+sle(28)_sld(3)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6776.12590;851.18
+sle(8)_sld(1)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9364.91810;881.44
+sle(20)_sld(2)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);8266.62540;1796.20
+sle(40)_sld(6)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6911.34030;716.59
+sle(8)_sld(4)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);6974.51470;2076.92
+sle(28)_sld(5)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);23751.37350;2252.48
+sle(24)_sld(7)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7146.34970;2339.58
+sle(24)_sld(4)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7323.30750;560.21
+sle(32)_sld(6)_lsed([8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7235.99990;677.50
+sle(8)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7378.64160;296.89
+sle(8)_sld(4)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7564.91870;772.23
+sle(20)_sld(1)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7924.60080;3278.29
+sle(28)_sld(5)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7288.56710;1252.06
+sle(20)_sld(1)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);34979.48230;1915.37
+sle(36)_sld(3)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7146.98040;500.15
+sle(24)_sld(6)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);9824.33780;3013.17
+sle(16)_sld(7)_lsed([64, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7050.33630;960.43
+sle(32)_sld(2)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7027.87850;4763.90
+sle(24)_sld(5)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7188.07630;348.62
+sle(12)_sld(5)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);8343.00440;3093.94
+sle(24)_sld(7)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6958.79350;1341.07
+sle(8)_sld(1)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);9225.83820;828.19
+sle(24)_sld(7)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6954.75960;2187.18
+sle(32)_sld(2)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7410.94630;4664.90
+sle(8)_sld(2)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);9509.89340;1527.48
+sle(36)_sld(5)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7675.52390;1153.66
+sle(36)_sld(1)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);8829.19500;2574.03
+sle(36)_sld(1)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7017.34750;1833.83
+sle(24)_sld(6)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7730.06180;257.24
+sle(28)_sld(2)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7009.01380;1150.19
+sle(12)_sld(6)_lsed([8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7982.80750;1395.09
+sle(32)_sld(3)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);9270.32310;1604.44
+sle(40)_sld(7)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);8695.24200;1919.15
+sle(12)_sld(6)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6917.65370;528.82
+sle(20)_sld(1)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7782.46240;1689.04
+sle(40)_sld(3)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7041.52370;1995.42
+sle(16)_sld(4)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);8481.89040;458.24
+sle(28)_sld(2)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7190.20330;294.06
+sle(20)_sld(4)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7173.03570;259.08
+sle(24)_sld(7)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6620.60610;622.57
+sle(20)_sld(1)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);8773.09450;435.30
+sle(32)_sld(3)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7133.74470;778.44
+sle(36)_sld(3)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7193.29910;3078.17
+sle(20)_sld(1)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);9774.01900;847.40
+sle(32)_sld(7)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7667.34460;1300.64
+sle(28)_sld(7)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6890.63180;691.42
+sle(32)_sld(5)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6933.75150;767.67
+sle(20)_sld(4)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7072.38460;271.54
+sle(24)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7112.85300;1190.66
+sle(24)_sld(2)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7272.10530;187.45
+sle(36)_sld(2)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);11650.69490;1084.81
+sle(20)_sld(6)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6860.87600;1015.76
+sle(20)_sld(6)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7126.34010;3482.16
+sle(40)_sld(5)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6897.05020;444.01
+sle(40)_sld(6)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);8479.53410;1798.12
+sle(36)_sld(7)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7204.28340;1203.62
+sle(32)_sld(1)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6987.89270;2017.88
+sle(36)_sld(5)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7047.88120;6051.39
+sle(32)_sld(7)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6941.53110;3062.57
+sle(36)_sld(3)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6911.92520;4034.18
+sle(16)_sld(6)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6749.84360;219.43
+sle(20)_sld(2)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7137.81830;229.10
+sle(24)_sld(6)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6502.64540;514.60
+sle(20)_sld(2)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);8160.73510;574.57
+sle(8)_sld(4)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7516.94830;166.60
+sle(8)_sld(7)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7926.07620;498.63
+sle(24)_sld(3)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7213.26330;1157.95
+sle(36)_sld(3)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7358.45460;1429.36
+sle(40)_sld(7)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);8050.11830;1624.16
+sle(8)_sld(3)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6975.13790;528.17
+sle(36)_sld(6)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7176.22110;736.24
+sle(12)_sld(5)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6847.57810;228.61
+sle(12)_sld(2)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);8239.20570;209.07
+sle(20)_sld(6)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7047.26790;2251.10
+sle(36)_sld(3)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7801.47940;381.66
+sle(20)_sld(6)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7396.18080;1278.56
+sle(32)_sld(3)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7509.32910;2446.72
+sle(24)_sld(5)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);7128.58070;545.34
+sle(12)_sld(3)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7801.85230;437.59
+sle(20)_sld(4)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);6890.06870;2038.44
+sle(20)_sld(6)_lsed([8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7532.86780;2098.11
+sle(16)_sld(4)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);11684.42080;1318.76
+sle(24)_sld(2)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6746.45290;155.82
+sle(24)_sld(4)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7041.23840;381.56
+sle(8)_sld(2)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6938.23360;389.16
+sle(36)_sld(5)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);6995.37210;2742.82
+sle(40)_sld(1)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);9466.48550;1423.01
+sle(36)_sld(5)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7303.23570;428.19
+sle(36)_sld(3)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7283.68410;1487.41
+sle(24)_sld(2)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7397.72850;1438.51
+sle(32)_sld(6)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7045.81940;5217.19
+sle(28)_sld(6)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);11356.25120;6818.65
+sle(24)_sld(3)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7018.11690;134.34
+sle(32)_sld(1)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);7019.11050;704.84
+sle(28)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7143.55820;1067.55
+sle(24)_sld(3)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7619.55510;1104.51
+sle(40)_sld(3)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6977.91970;1143.36
+sle(12)_sld(4)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7323.05150;1307.52
+sle(12)_sld(5)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7727.12620;373.44
+sle(40)_sld(7)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7575.44470;1630.12
+sle(16)_sld(7)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7620.36180;1785.86
+sle(12)_sld(3)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6841.46600;213.82
+sle(12)_sld(4)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);8156.22040;1498.39
+sle(40)_sld(2)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6997.96780;1860.66
+sle(32)_sld(7)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7772.52990;2671.12
+sle(40)_sld(1)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7584.41260;797.96
+sle(40)_sld(1)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7001.71580;2886.44
+sle(28)_sld(3)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7472.80470;2732.77
+sle(32)_sld(4)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9003.01480;2492.66
+sle(36)_sld(6)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);438783.71120;4568.54
+sle(20)_sld(7)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6864.13740;472.68
+sle(32)_sld(7)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7076.68230;387.52
+sle(40)_sld(4)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);10243.20810;3073.29
+sle(20)_sld(7)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7081.36150;343.09
+sle(8)_sld(5)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6880.76430;1345.66
+sle(40)_sld(2)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);9126.85590;3530.33
+sle(32)_sld(4)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6941.38840;1764.97
+sle(36)_sld(6)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6939.83190;643.71
+sle(40)_sld(3)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6983.30750;1950.73
+sle(32)_sld(3)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6909.29530;329.34
+sle(36)_sld(6)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6902.67790;1362.21
+sle(32)_sld(3)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6914.73900;2434.24
+sle(40)_sld(5)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7461.82500;2176.53
+sle(40)_sld(7)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);6982.37530;3032.90
+sle(28)_sld(2)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6879.88720;181.42
+sle(16)_sld(2)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);14849.31910;664.04
+sle(36)_sld(5)_lsed([64, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6920.59260;681.26
+sle(8)_sld(5)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);7109.60410;787.72
+sle(20)_sld(1)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);9479.80800;132.27
+sle(28)_sld(5)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);8533.01640;945.69
+sle(36)_sld(1)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);8475.52450;400.35
+sle(24)_sld(2)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);8734.18240;356.10
+sle(40)_sld(3)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6957.23680;1160.63
+sle(24)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7657.29540;1019.44
+sle(12)_sld(4)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6887.03400;133.34
+sle(12)_sld(1)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);8615.63370;409.95
+sle(32)_sld(5)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);8006.23130;483.37
+sle(28)_sld(3)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);8165.86320;283.86
+sle(40)_sld(5)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);6925.02490;1487.80
+sle(12)_sld(4)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6894.92950;2473.27
+sle(24)_sld(4)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7204.48680;298.79
+sle(20)_sld(2)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7707.54690;443.33
+sle(8)_sld(3)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);8140.56100;1781.82
+sle(12)_sld(3)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6967.56640;232.71
+sle(20)_sld(3)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7179.62110;2258.88
+sle(12)_sld(1)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7594.05800;588.78
+sle(28)_sld(4)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6889.24260;501.99
+sle(32)_sld(3)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6937.10400;472.13
+sle(8)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);8613.82220;504.28
+sle(12)_sld(3)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7574.42510;345.20
+sle(32)_sld(5)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6688.32450;2457.82
+sle(36)_sld(1)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6899.60300;1264.97
+sle(20)_sld(6)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);10335.18980;3735.63
+sle(40)_sld(1)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7134.57220;5857.69
+sle(28)_sld(7)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);23436.31930;4865.46
+sle(36)_sld(7)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);6886.61720;7296.55
+sle(8)_sld(2)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6920.18760;404.38
+sle(36)_sld(5)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);11093.24420;417.35
+sle(12)_sld(4)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);12682.51590;420.15
+sle(8)_sld(4)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6860.97630;169.79
+sle(8)_sld(3)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6936.98900;668.88
+sle(20)_sld(5)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7276.64950;875.83
+sle(8)_sld(7)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7614.53600;667.83
+sle(8)_sld(7)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7231.52340;1261.59
+sle(36)_sld(4)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);28005.58950;597.53
+sle(8)_sld(3)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);8966.23320;1905.01
+sle(28)_sld(1)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);20915.22280;1605.64
+sle(24)_sld(4)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7367.87640;2139.14
+sle(24)_sld(1)_lsed([64, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);8437.40590;1094.42
+sle(12)_sld(4)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7163.88590;659.70
+sle(16)_sld(5)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);36594.43380;3180.91
+sle(12)_sld(1)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);8641.39780;1547.53
+sle(28)_sld(4)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6934.02340;784.60
+sle(28)_sld(3)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6991.13650;550.39
+sle(8)_sld(6)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9038.22730;2346.64
+sle(40)_sld(5)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);9542.92530;1444.08
+sle(16)_sld(2)_lsed([64, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7370.90230;564.24
+sle(8)_sld(4)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);16982.11740;1932.55
+sle(36)_sld(6)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6937.03890;243.19
+sle(28)_sld(5)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);22352.02300;4526.34
+sle(24)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7052.43200;194.08
+sle(40)_sld(5)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7071.90660;1551.18
+sle(28)_sld(3)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);9237.10730;2125.42
+sle(40)_sld(3)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);6884.07610;5771.24
+sle(32)_sld(1)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);8949.95880;4496.39
+sle(40)_sld(4)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);10296.23200;3733.15
+sle(32)_sld(2)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);10742.27100;4593.11
+sle(36)_sld(3)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);8914.91580;4173.22
+sle(8)_sld(7)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6895.02920;175.09
+sle(12)_sld(3)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6905.30280;762.36
+sle(20)_sld(2)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);7481.43320;498.52
+sle(8)_sld(7)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);9389.33050;1427.04
+sle(16)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);8590.84860;1471.97
+sle(36)_sld(7)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7585.17950;1467.23
+sle(32)_sld(1)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7138.79220;2071.29
+sle(32)_sld(4)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6938.90080;717.41
+sle(16)_sld(4)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7386.78390;262.58
+sle(20)_sld(7)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);6884.17990;2354.47
+sle(32)_sld(4)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7303.09680;2399.85
+sle(12)_sld(5)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9299.81640;2470.97
+sle(16)_sld(5)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6581.56150;227.51
+sle(8)_sld(1)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);9676.87390;1147.11
+sle(40)_sld(2)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7772.65050;727.40
+sle(12)_sld(1)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6916.22950;585.58
+sle(24)_sld(6)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7330.36890;1992.23
+sle(36)_sld(3)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);8034.48450;748.48
+sle(28)_sld(6)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6879.68440;2147.24
+sle(8)_sld(5)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7296.53200;413.24
+sle(28)_sld(2)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);7287.75190;311.08
+sle(24)_sld(5)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);12857.83130;1883.65
+sle(24)_sld(2)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);9782.28750;1027.26
+sle(24)_sld(1)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6736.07450;299.16
+sle(28)_sld(4)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7092.83400;1179.02
+sle(28)_sld(7)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7251.07920;4973.48
+sle(32)_sld(2)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6977.53150;862.59
+sle(28)_sld(7)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);8509.08250;4573.50
+sle(20)_sld(4)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7099.68920;3832.41
+sle(40)_sld(1)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7074.34470;3984.18
+sle(32)_sld(7)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7004.71990;6722.04
+sle(36)_sld(2)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);8396.50260;7752.88
+sle(16)_sld(1)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6856.67610;100.79
+sle(16)_sld(3)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7479.30800;316.16
+sle(8)_sld(1)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7833.10630;263.73
+sle(28)_sld(7)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7120.00660;1180.42
+sle(28)_sld(5)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6880.11930;1215.77
+sle(24)_sld(1)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6814.79580;524.58
+sle(28)_sld(7)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6933.91840;2457.50
+sle(28)_sld(4)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7909.70740;2460.27
+sle(16)_sld(7)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);9299.08430;190.46
+sle(36)_sld(6)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6899.55670;2906.29
+sle(16)_sld(7)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7114.51880;3116.37
+sle(28)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);8734.94660;265.53
+sle(24)_sld(3)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6985.83890;547.29
+sle(12)_sld(5)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);13749.24830;1321.56
+sle(20)_sld(1)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7835.64810;1685.07
+sle(24)_sld(4)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);9476.27120;1292.96
+sle(32)_sld(7)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7102.64280;588.42
+sle(12)_sld(5)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);6998.63380;909.14
+sle(12)_sld(6)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);8231.56760;407.60
+sle(36)_sld(1)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6973.44390;5161.69
+sle(28)_sld(2)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7037.11070;368.92
+sle(32)_sld(3)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);6939.06920;5742.21
+sle(12)_sld(2)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6911.78080;457.61
+sle(32)_sld(5)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);8948.17080;1362.51
+sle(20)_sld(6)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6947.37110;169.69
+sle(24)_sld(3)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7660.72190;294.75
+sle(40)_sld(1)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7826.14950;6033.90
+sle(8)_sld(5)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6925.88300;2056.53
+sle(24)_sld(1)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9927.20120;5409.61
+sle(12)_sld(7)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);8000.18070;2810.48
+sle(16)_sld(7)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6953.58640;3602.53
+sle(28)_sld(1)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);11602.27590;9147.35
+sle(8)_sld(3)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6852.08660;150.36
+sle(12)_sld(5)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6733.42190;182.30
+sle(36)_sld(3)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7048.04570;494.65
+sle(36)_sld(2)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6956.42250;687.33
+sle(36)_sld(7)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6858.67090;542.89
+sle(8)_sld(7)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);9025.40710;1046.27
+sle(12)_sld(4)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);6996.09290;1194.51
+sle(16)_sld(2)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7232.05350;1345.49
+sle(16)_sld(1)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);9236.51320;1454.54
+sle(12)_sld(7)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);8183.69360;516.86
+sle(12)_sld(5)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6877.46150;1143.09
+sle(20)_sld(1)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);8949.25570;1273.74
+sle(16)_sld(4)_lsed([64])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7235.74350;867.31
+sle(16)_sld(2)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7553.07780;412.39
+sle(16)_sld(7)_lsed([32, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7357.90230;494.48
+sle(36)_sld(2)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7775.97820;2593.97
+sle(8)_sld(4)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7074.05460;2180.48
+sle(28)_sld(2)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6980.65650;226.89
+sle(8)_sld(7)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7041.51540;2514.62
+sle(24)_sld(6)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6975.39890;2010.83
+sle(32)_sld(2)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);9180.78690;2857.32
+sle(28)_sld(1)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);8568.72210;4180.56
+sle(28)_sld(7)_lsed([8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6933.57450;916.15
+sle(20)_sld(3)_lsed([32, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);9732.35630;4396.72
+sle(36)_sld(2)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6906.32910;1012.02
+sle(20)_sld(7)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);6895.57370;2081.33
+sle(36)_sld(5)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7126.42660;6941.52
+sle(24)_sld(4)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6919.82190;2034.32
+sle(20)_sld(6)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6852.95170;3046.13
+sle(12)_sld(1)_lsed([16, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7476.95570;4359.37
+sle(36)_sld(4)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);6888.88990;4386.94
+sle(36)_sld(4)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);7592.82800;7758.01
+sle(12)_sld(7)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);50070.84460;178.54
+sle(8)_sld(2)_lsed([32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6883.24650;235.17
+sle(16)_sld(7)_lsed([32, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7070.66100;257.75
+sle(8)_sld(3)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6951.47770;296.93
+sle(12)_sld(4)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7118.57770;325.29
+sle(12)_sld(5)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6899.99790;503.78
+sle(20)_sld(2)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6945.67540;588.43
+sle(20)_sld(5)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7486.07170;419.22
+sle(40)_sld(7)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7525.01850;336.67
+sle(12)_sld(7)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6863.00690;282.18
+sle(20)_sld(6)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7200.28060;958.55
+sle(16)_sld(6)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);6935.98130;812.99
+sle(40)_sld(1)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7353.38540;892.56
+sle(12)_sld(5)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6995.04010;531.67
+sle(8)_sld(5)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6836.59140;180.98
+sle(24)_sld(6)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7049.25780;325.84
+sle(16)_sld(7)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6816.89830;453.44
+sle(8)_sld(2)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7148.47400;272.96
+sle(36)_sld(4)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6906.65340;1678.72
+sle(28)_sld(7)_lsed([32, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6878.67600;1779.98
+sle(32)_sld(7)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);8515.97500;3530.63
+sle(36)_sld(6)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);14656.68050;2984.38
+sle(12)_sld(1)_lsed([64, 32])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7992.66240;1238.79
+sle(24)_sld(6)_lsed([64])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);107337.84710;3167.50
+sle(32)_sld(5)_lsed([8, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);8506.02020;3561.84
+sle(40)_sld(2)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7798.18790;1488.64
+sle(40)_sld(4)_lsed([16, 4])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7333.50960;5758.25
+sle(20)_sld(5)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);10200.03630;1825.70
+sle(8)_sld(7)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7289.52130;2975.48
+sle(32)_sld(7)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);9316.58800;8429.84
+sle(40)_sld(2)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);11215.58250;6196.53
+sle(40)_sld(7)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);8341.57230;9364.92
+sle(8)_sld(5)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);6484.13740;151.93
+sle(40)_sld(6)_lsed([8])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7624.59270;1019.44
+sle(28)_sld(2)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7282.46100;1130.92
+sle(28)_sld(4)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);6892.08000;1608.57
+sle(20)_sld(6)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);13646.10690;585.24
+sle(16)_sld(3)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7272.93040;227.64
+sle(24)_sld(4)_lsed([32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.0001)_ct(lstm)_pat(15);7022.90130;2022.75
+sle(28)_sld(6)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6914.60320;391.90
+sle(32)_sld(1)_lsed([8, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);7245.44150;2338.99
+sle(40)_sld(1)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7429.45000;1351.76
+sle(8)_sld(1)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7029.33910;73.37
+sle(12)_sld(3)_lsed([8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);7043.61490;701.65
+sle(12)_sld(2)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7083.26090;678.68
+sle(12)_sld(7)_lsed([16, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6856.90320;340.59
+sle(12)_sld(7)_lsed([64, 32])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6879.36160;596.78
+sle(36)_sld(3)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);7223.03260;765.94
+sle(8)_sld(6)_lsed([64])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7318.76160;1306.02
+sle(28)_sld(2)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7195.98400;587.80
+sle(28)_sld(6)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);7532.50060;219.34
+sle(8)_sld(7)_lsed([16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);7078.08890;1261.12
+sle(24)_sld(6)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);8766.92970;4013.28
+sle(40)_sld(2)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);8294.65270;232.05
+sle(36)_sld(2)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);6922.97430;778.22
+sle(40)_sld(7)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.0001)_ct(lstm)_pat(15);7359.69230;2261.07
+sle(20)_sld(3)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);8194.09480;1044.14
+sle(20)_sld(1)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6835.65680;127.80
+sle(32)_sld(1)_lsed([64, 32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7190.59230;1385.91
+sle(24)_sld(3)_lsed([32, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6777.79410;954.48
+sle(32)_sld(6)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7003.96740;1058.83
+sle(40)_sld(2)_lsed([64, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7300.28540;1485.31
+sle(40)_sld(7)_lsed([16, 8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6934.30570;5774.11
+sle(28)_sld(7)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7103.47770;6906.86
+sle(36)_sld(7)_lsed([8])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);6912.72500;290.26
+sle(12)_sld(2)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);8476.44910;301.77
+sle(28)_sld(6)_lsed([16, 8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(128)_lr(0.0001)_ct(lstm)_pat(15);6430.19750;345.32
+sle(28)_sld(5)_lsed([8, 4])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.001)_ct(lstm)_pat(15);7465.03820;334.08
+sle(40)_sld(1)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);7428.95950;758.44
+sle(24)_sld(5)_lsed([16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);7673.41450;1061.84
+sle(16)_sld(5)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(128)_lr(0.01)_ct(lstm)_pat(15);6944.24890;456.53
+sle(28)_sld(6)_lsed([32])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.0001)_ct(lstm)_pat(15);6938.46470;866.32
+sle(32)_sld(7)_lsed([16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.01)_ct(lstm)_pat(15);6953.40020;1347.30
+sle(8)_sld(1)_lsed([64, 16])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(64)_lr(0.01)_ct(lstm)_pat(15);7196.16500;372.89
+sle(28)_sld(1)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(8)_lr(0.001)_ct(lstm)_pat(15);8377.44210;2107.64
+sle(12)_sld(5)_lsed([8])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(64)_lr(0.001)_ct(lstm)_pat(15);6731.75460;208.80
+sle(32)_sld(2)_lsed([32, 4])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6895.51940;2498.16
+sle(28)_sld(6)_lsed([64, 16])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);7577.50270;1695.45
+sle(36)_sld(1)_lsed([32])_lsf()_ac(tanh)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);6932.82140;1370.72
+sle(12)_sld(4)_lsed([64, 16])_lsf()_ac(sigmoid)_opt(adam)_rd(0.05)_drop(0.05)_bs(16)_lr(0.0001)_ct(lstm)_pat(15);7024.40570;2944.17
+sle(8)_sld(7)_lsed([64])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(16)_lr(0.001)_ct(lstm)_pat(15);9483.54570;2953.94
+sle(16)_sld(7)_lsed([16])_lsf()_ac(sigmoid)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.01)_ct(lstm)_pat(15);8523.73690;892.40
+sle(40)_sld(5)_lsed([16, 8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(32)_lr(0.001)_ct(lstm)_pat(15);7707.04910;1441.29
+sle(24)_sld(1)_lsed([8])_lsf()_ac(tanh)_opt(rmsprop)_rd(0.05)_drop(0.05)_bs(8)_lr(0.01)_ct(lstm)_pat(15);9856.62760;1324.98
